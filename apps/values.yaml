@@ -33,19 +33,13 @@ services:
   p46-ea-test-01:
     enabled: true
     ec_service: true
-    targetRevision: 2024.9.1
   bl46p-ea-panda-01:
     ec_service: true
-    targetRevision: 2024.9.1
   bl46p-ea-dcam-01:
     ec_service: true
-    targetRevision: 2024.9.1
   bl46p-ea-dcam-02:
     ec_service: true
-    targetRevision: 2024.9.1
   bl46p-mo-ioc-01:
     ec_service: true
-    targetRevision: 2024.9.1
   bl46p-ea-test-01:
     ec_service: true
-    targetRevision: 2024.9.1
