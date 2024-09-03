@@ -5,7 +5,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: bl46p
+  project: p46-beamline
   destination:
     name: pollux
     namespace: p46-beamline
