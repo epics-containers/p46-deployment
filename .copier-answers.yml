@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: 0.2.11
+_commit: 0.2.13
 _src_path: gh:epics-containers/deployment-template-argocd
 argocd_project: p46-beamline
 argocd_server: argocd.diamond.ac.uk

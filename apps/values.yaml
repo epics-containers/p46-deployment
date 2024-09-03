@@ -10,7 +10,7 @@
 
 project: p46-beamline
 destination:
-  name: argus
+  name: pollux
   namespace: p46-beamline
 source:
   repoURL: https://github.com/epics-containers/p46-services
