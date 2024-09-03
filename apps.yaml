@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: p46
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: bl46p
+  destination:
+    name: pollux
+    namespace: p46-beamline
+  source:
+    path: apps
+    repoURL: https://github.com/epics-containers/p46-deployment
+    targetRevision: main
+    helm:
+      version: v3
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
