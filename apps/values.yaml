@@ -14,7 +14,7 @@ destination:
   namespace: p46-beamline
 source:
   repoURL: https://github.com/epics-containers/p46-services
-  targetRevision: 2024.9.1
+  targetRevision: 2024.9.2
 
 # list of services to deploy. Each item is of the form:
 # - service: service name as it appears in K8S (statefulset/deployment name)
@@ -32,5 +32,20 @@ services:
   # epics iocs #################################################################
   p46-ea-test-01:
     enabled: true
+    ec_service: true
+    targetRevision: 2024.9.1
+  bl46p-ea-panda-01:
+    ec_service: true
+    targetRevision: 2024.9.1
+  bl46p-ea-dcam-01:
+    ec_service: true
+    targetRevision: 2024.9.1
+  bl46p-ea-dcam-02:
+    ec_service: true
+    targetRevision: 2024.9.1
+  bl46p-mo-ioc-01:
+    ec_service: true
+    targetRevision: 2024.9.1
+  bl46p-ea-test-01:
     ec_service: true
     targetRevision: 2024.9.1
