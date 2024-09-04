@@ -14,7 +14,7 @@ destination:
   namespace: p46-beamline
 source:
   repoURL: https://github.com/epics-containers/p46-services
-  targetRevision: 2024.9.5
+  targetRevision: 2024.9.6
 
 # list of services to deploy. Each item is of the form:
 # - service: service name as it appears in K8S (statefulset/deployment name)
