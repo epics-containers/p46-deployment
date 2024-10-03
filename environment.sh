@@ -14,12 +14,12 @@ echo "Loading environment for p46 deployment ..."
 #### SECTION 1. Environment variables ##########################################
 
 export EC_CLI_BACKEND="ARGOCD"
-# the argocd project and root app
+# the argocd app namespace and root app
 export EC_TARGET=p46-beamline/p46
 # the git repo for this project
 export EC_SERVICES_REPO=https://github.com/epics-containers/p46-services
 # declare your centralised log server Web UI
-export EC_LOG_URL=https://graylog2.diamond.ac.uk/search?rangetype=relative&fields=message%2Csource&width=1489&highlightMessage=&relative=172800&q=pod_name%3A{service_name}*
+export EC_LOG_URL="https://graylog2.diamond.ac.uk/search?rangetype=relative&fields=message%2Csource&width=1489&highlightMessage=&relative=172800&q=pod_name%3A{service_name}*"
 
 #### SECTION 2. Install ec #####################################################
 
