@@ -26,6 +26,11 @@ services:
   epics-pvcs:
   epics-opis:
 
+  # daq services ###############################################################
+  daq-rabbitmq:
+  daq-blueapi:
+  daq-nexus:
+
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
   # Each item is of the form:
