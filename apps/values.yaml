@@ -14,7 +14,7 @@ destination:
   namespace: p46-beamline
 source:
   repoURL: https://github.com/epics-containers/p46-services
-  targetRevision: 2024.11.1
+  targetRevision: 2024.11.2
 
 services:
   # Each item is of the form:
@@ -47,4 +47,3 @@ ec_services:
   bl46p-ea-dcam-01:
   bl46p-ea-dcam-02:
   bl46p-mo-ioc-01:
-  bl46p-ea-test-01:
