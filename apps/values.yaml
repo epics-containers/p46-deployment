@@ -44,7 +44,14 @@ ec_services:
   #     removed: set to true to remove the service from the cluster
   #     enabled: set to false to stop a service
   bl46p-ea-panda-01:
-    targetRevision: main
+    targetRevision: fix-data-path
+    enabled: true
   bl46p-ea-dcam-01:
+    targetRevision: fix-data-path
+    enabled: true
   bl46p-ea-dcam-02:
+    targetRevision: fix-data-path
+    enabled: true
   bl46p-mo-ioc-01:
+    targetRevision: 2024.11.2
+    enabled: true
