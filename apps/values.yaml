@@ -27,11 +27,11 @@ services:
   epics-opis:
 
   # daq services ###############################################################
-  daq-rabbitmq:
+  p46-rabbitmq:
     targetRevision: main
-  daq-blueapi:
+  p46-blueapi:
     targetRevision: main
-  daq-nexus:
+  p46-nexus:
     targetRevision: main
 
 ec_services:
