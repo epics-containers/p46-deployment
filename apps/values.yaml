@@ -14,7 +14,7 @@ destination:
   namespace: p46-beamline
 source:
   repoURL: https://github.com/epics-containers/p46-services
-  targetRevision: 2024.11.2
+  targetRevision: main
 
 services:
   # Each item is of the form:
@@ -27,12 +27,9 @@ services:
   epics-opis:
 
   # daq services ###############################################################
-  daq-rabbitmq:
-    targetRevision: main
-  daq-blueapi:
-    targetRevision: main
-  daq-nexus:
-    targetRevision: main
+  p46-rabbitmq:
+  p46-blueapi:
+  p46-nexus:
 
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
