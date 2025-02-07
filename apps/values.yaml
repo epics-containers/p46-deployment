@@ -30,6 +30,7 @@ services:
   p46-rabbitmq:
   p46-blueapi:
   p46-nexus:
+  pxx-jaeger:  # Temporary common Jaeger instance for all test-rigs.
 
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
