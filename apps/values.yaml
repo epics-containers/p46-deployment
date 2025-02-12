@@ -29,7 +29,6 @@ services:
   # daq services ###############################################################
   p46-rabbitmq:
   p46-blueapi:
-    targetRevision: test-scanspec
   p46-nexus:
   pxx-jaeger:  # Temporary common Jaeger instance for all test-rigs.
 
