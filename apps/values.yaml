@@ -29,7 +29,6 @@ services:
   # daq services ###############################################################
   p46-rabbitmq:
   p46-blueapi:
-    targetRevision: test-version-1
   p46-nexus:
   pxx-jaeger:  # Temporary common Jaeger instance for all test-rigs.
   p46-panda-web-gui:  # Reverse proxy exposing panda web GUI to the outside world
