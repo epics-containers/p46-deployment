@@ -28,6 +28,7 @@ services:
 
   # daq services ###############################################################
   p46-rabbitmq:
+    targetRevision: add-guest-user-to-rabbitmq
   p46-blueapi:
   p46-nexus:
   pxx-jaeger:  # Temporary common Jaeger instance for all test-rigs.
