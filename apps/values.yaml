@@ -30,7 +30,9 @@ services:
   p46-rabbitmq:
     targetRevision: add-guest-user-to-rabbitmq
   p46-blueapi:
+    targetRevision: add-guest-user-to-rabbitmq
   p46-nexus:
+    targetRevision: add-guest-user-to-rabbitmq
   pxx-jaeger:  # Temporary common Jaeger instance for all test-rigs.
   p46-panda-web-gui:  # Reverse proxy exposing panda web GUI to the outside world
 
