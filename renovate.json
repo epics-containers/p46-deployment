@@ -1,6 +1,25 @@
 {
+<<<<<<< before updating
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
   ]
+=======
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended"
+    ],
+    "packageRules": [
+        {
+            "groupName": "ec charts",
+            "matchSourceUrls": [
+                "https://github.com/epics-containers/ec-helm-charts"
+            ],
+            "enabled": false,
+            "description": [
+                "These dependencies are updated as part of updating the copier template"
+            ]
+        }
+    ]
+>>>>>>> after updating
 }
