@@ -10,7 +10,7 @@
 
 project: p46-beamline
 destination:
-  name: pollux
+  name: p46
   namespace: p46-beamline
 source:
   repoURL: https://github.com/epics-containers/p46-services
@@ -42,6 +42,12 @@ ec_services:
   #            the path is always services/<service> within that repo
   #     removed: set to true to remove the service from the cluster
   #     enabled: set to false to stop a service
+
+  # example entry
+  #   p46-ea-test-01:
+  #     enabled: true
+  #     targetRevision: 2024.9.1
+
   bl46p-ea-panda-01:
     targetRevision: 2025.2.1
     enabled: true
