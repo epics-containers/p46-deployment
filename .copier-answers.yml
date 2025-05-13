@@ -3,9 +3,7 @@ _commit: 4.3.0
 _src_path: https://github.com/epics-containers/deployment-template-argocd
 argocd_cluster: argus
 argocd_server: argocd.diamond.ac.uk
-cluster_name: 'p46
-
-    '
+cluster_name: p46
 cluster_namespace: p46-beamline
 deployment_repo: https://github.com/epics-containers/p46-deployment
 description: p46 IOC Instances and Services
