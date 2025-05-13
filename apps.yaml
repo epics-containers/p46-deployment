@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: p46
-  namespace: argus
+  namespace: p46-beamline
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
