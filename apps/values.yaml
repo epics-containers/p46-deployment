@@ -10,7 +10,7 @@
 
 project: p46-beamline
 destination:
-  name: p46
+  name: pollux
   namespace: p46-beamline
 source:
   repoURL: https://github.com/epics-containers/p46-services
@@ -46,7 +46,7 @@ ec_services:
   # example entry
   #   p46-ea-test-01:
   #     enabled: true
-  #     targetRevision: 2024.9.1
+  #     targetRevision: main
 
   bl46p-ea-panda-01:
   bl46p-ea-dcam-01:
