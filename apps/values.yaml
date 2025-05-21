@@ -28,6 +28,7 @@ services:
 
   # daq services ###############################################################
   p46-rabbitmq:
+    targetRevision: rabbitmq-ingress
   # Disabled for argocd sync
   # p46-blueapi:
   #   targetRevision: s10y
