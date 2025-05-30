@@ -27,8 +27,8 @@ services:
   epics-opis:
 
   # daq services ###############################################################
-  # p46-rabbitmq:
-  #   targetRevision: rabbitmq-ingress
+  p46-rabbitmq:
+    targetRevision: rabbitmq-ingress
   p46-blueapi:
     targetRevision: main
   p46-nexus:
