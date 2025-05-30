@@ -30,7 +30,7 @@ services:
   p46-rabbitmq:
     targetRevision: rabbitmq-ingress
   p46-blueapi:
-    targetRevision: blueapi-oauth2-proxy
+    targetRevision: main
   p46-nexus:
   pxx-jaeger:  # Temporary common Jaeger instance for all test-rigs.
   p46-panda-web-gui:  # Reverse proxy exposing panda web GUI to the outside world
