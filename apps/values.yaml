@@ -31,9 +31,9 @@ services:
   p46-rabbitmq:
     targetRevision: DiamondJoseph-patch-1
   p46-blueapi:
-    targetRevision: DiamondJoseph-patch-2
+    targetRevision: enable-graylog
   p46-nexus:
-  pxx-jaeger:  # Temporary common Jaeger instance for all test-rigs.
+  pxx-jaeger: # Temporary common Jaeger instance for all test-rigs.
 
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
