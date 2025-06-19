@@ -31,7 +31,6 @@ services:
   p46-rabbitmq:
     targetRevision: DiamondJoseph-patch-1
   p46-blueapi:
-    targetRevision: DiamondJoseph-patch-2
   p46-nexus:
   pxx-jaeger: # Temporary common Jaeger instance for all test-rigs.
 
