@@ -30,6 +30,7 @@ services:
   # daq services ###############################################################
   p46-rabbitmq:
   p46-blueapi:
+    removed: true
     targetRevision: debug-numtracker
   p46-nexus:
   pxx-jaeger: # Temporary common Jaeger instance for all test-rigs.
