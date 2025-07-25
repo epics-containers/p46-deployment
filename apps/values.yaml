@@ -34,7 +34,7 @@ services:
   p46-nexus:
   pxx-jaeger: # Temporary common Jaeger instance for all test-rigs.
   p46-tiled:
-    targetRevision: add-tiled
+    targetRevision: addition-configuration-tiled
 
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
