@@ -33,6 +33,8 @@ services:
     targetRevision: debug-numtracker
   p46-nexus:
   pxx-jaeger: # Temporary common Jaeger instance for all test-rigs.
+  p46-tiled:
+    targetRevision: add-tiled
 
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
