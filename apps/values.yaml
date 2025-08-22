@@ -31,7 +31,6 @@ services:
   p46-rabbitmq:
     targetRevision: remove-bitnami
   p46-blueapi:
-    targetRevision: test-logout
   p46-nexus:
   pxx-jaeger: # Temporary common Jaeger instance for all test-rigs.
   p46-tiled:
