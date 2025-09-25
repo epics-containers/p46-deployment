@@ -14,7 +14,7 @@ destination:
   namespace: p46-beamline
 source:
   repoURL: https://github.com/epics-containers/p46-services
-  targetRevision: update-daq-services
+  targetRevision: main
 
 services:
   # Each item is of the form:
