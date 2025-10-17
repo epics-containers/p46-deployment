@@ -31,6 +31,7 @@ services:
   p46-rabbitmq:
   p46-blueapi:
   p46-nexus:
+    targetRevision: 4.1.3-a1
   p46-tiled:
 
 ec_services:
