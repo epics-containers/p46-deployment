@@ -39,6 +39,8 @@ services:
 
   # IOCs #######################################################################
   bl46p-ea-panda-01:
+    enabled: true
+    targetRevision: 5.0.0-update
   bl46p-ea-dcam-01:
   bl46p-ea-dcam-02:
   bl46p-mo-ioc-01:
