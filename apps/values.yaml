@@ -24,8 +24,10 @@ services:
   #            the path is always services/<service> within that repo
   #     removed: set to true to remove the service from the cluster
   #     enabled: set to false to stop a service
-  epics-pvcs:
-  epics-opis:
+
+  # Common services ############################################################
+  p46-epics-pvcs:
+  p46-epics-opis:
   p46-proxy:
 
   # daq services ###############################################################
@@ -40,5 +42,3 @@ services:
   bl46p-ea-dcam-01:
   bl46p-ea-dcam-02:
   bl46p-mo-ioc-01:
-  p46-epics-pvcs:
-  p46-epics-opis:
