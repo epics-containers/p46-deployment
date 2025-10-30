@@ -33,6 +33,7 @@ services:
   p46-nexus:
     targetRevision: 4.1.3-a1
   p46-tiled:
+  p46-glazed:
 
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
