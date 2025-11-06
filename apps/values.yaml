@@ -38,6 +38,7 @@ services:
     targetRevision: 4.1.3-a1
   p46-tiled:
   p46-glazed:
+  p46-epics-gateway:
 
   # IOCs #######################################################################
   bl46p-ea-panda-01:
