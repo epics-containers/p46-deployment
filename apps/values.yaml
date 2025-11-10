@@ -33,6 +33,7 @@ services:
   # daq services ###############################################################
   p46-rabbitmq:
   p46-blueapi:
+    targetRevision: no-sidecar
   p46-nexus:
   p46-tiled:
   p46-glazed:
