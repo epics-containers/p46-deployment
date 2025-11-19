@@ -37,6 +37,7 @@ services:
   p46-nexus:
     targetRevision: 4.1.3-a2
   p46-tiled:
+    targetRevision: internal-debug
   p46-glazed:
   p46-epics-gateways:
   p46-opa:
