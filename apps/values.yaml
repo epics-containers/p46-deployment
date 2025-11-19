@@ -39,6 +39,8 @@ services:
   p46-tiled:
   p46-glazed:
   p46-epics-gateways:
+  p46-opa:
+    targetRevision: internal-debug
 
   # IOCs #######################################################################
   bl46p-ea-panda-01:
