@@ -28,6 +28,7 @@ services:
   # Common services ############################################################
   p46-epics-pvcs:
   p46-epics-opis:
+<<<<<<< before updating
   p46-proxy:
 
   # daq services ###############################################################
@@ -50,3 +51,6 @@ services:
   bl46p-ea-dcam-01:
   bl46p-ea-dcam-02:
   bl46p-mo-ioc-01:
+=======
+  p46-epics-gateways:
+>>>>>>> after updating
