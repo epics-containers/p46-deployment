@@ -39,7 +39,8 @@ services:
   p46-tiled:
     targetRevision: internal-debug
   # p46-glazed:
-  p46-numtracker: add-opa
+  p46-numtracker: 
+    targetRevision: add-opa
   p46-epics-gateways:
   p46-opa:
     targetRevision: add-opa
