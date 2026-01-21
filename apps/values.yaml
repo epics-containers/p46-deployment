@@ -39,6 +39,8 @@ services:
   p46-tiled:
     targetRevision: internal-debug
   # p46-glazed:
+  p46-postgres:
+    targetRevision: postgres-sql
   p46-numtracker: 
     targetRevision: add-opa
   p46-epics-gateways:
