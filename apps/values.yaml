@@ -46,6 +46,10 @@ services:
   p46-epics-gateways:
   p46-opa:
     targetRevision: add-opa
+  p46-opa-dev:
+    targetRevision: add-opa
+  p46-opa-test:
+    targetRevision: add-opa
 
   # IOCs #######################################################################
   bl46p-ea-panda-01:
