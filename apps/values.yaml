@@ -32,6 +32,7 @@ services:
 
   # daq services ###############################################################
   p46-rabbitmq:
+    targetRevision: rabbitmq-ingress
   p46-blueapi:
     targetRevision: internal-debug
   p46-nexus:
