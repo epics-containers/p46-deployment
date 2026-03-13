@@ -36,9 +36,9 @@ services:
   p46-nexus:
     targetRevision: 4.1.3-a2
   p46-tiled:
-    targetRevision: main
+    targetRevision: test-tiled-auth
   p46-numtracker: 
-    targetRevision: add-opa
+    targetRevision: test-numtracker
   p46-epics-gateways:
   p46-opa:
     targetRevision: add-opa
