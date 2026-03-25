@@ -26,6 +26,7 @@ services:
   #     enabled: set to false to stop a service
 
   # Common services ############################################################
+  p46-cronjobs:
   p46-epics-pvcs:
   p46-epics-opis:
   p46-proxy:
