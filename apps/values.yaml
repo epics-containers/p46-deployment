@@ -38,7 +38,7 @@ services:
     targetRevision: 4.1.3-a2
   p46-tiled:
   p46-numtracker: 
-    targetRevision: test-numtracker
+    targetRevision: fix/cronjob-kubectl-spacing
   p46-epics-gateways:
   p46-opa:
 
