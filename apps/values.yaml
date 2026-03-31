@@ -27,6 +27,7 @@ services:
 
   # Common services ############################################################
   p46-cronjobs:
+    removed: true
   p46-epics-pvcs:
   p46-epics-opis:
   p46-proxy:
