@@ -1,6 +1,6 @@
 # p46 IOC Instances and Services
 
-This repository holds the definition of Argocd deployed ec services. Each sub folder of the 'services' directory of an ec 'services repository' is mapped to an Argocd App which is managed by a root App. This can be found at `https://gitlab.diamond.ac.uk/controls/containers/beamline/p46-services`.
+This repository holds the definition of Argocd deployed ec services. Each sub folder of the 'services' directory of an ec 'services repository' is mapped to an Argocd App which is managed by a root App. This can be found at [https://gitlab.diamond.ac.uk/controls/containers/beamline/p46-services].
 
 ## Deployment
 To deploy the Argocd root App:
