@@ -26,8 +26,6 @@ services:
   #     enabled: set to false to stop a service
 
   # Common services ############################################################
-  p46-cronjobs:
-    removed: true
   p46-epics-pvcs:
   p46-epics-opis:
   p46-proxy:
@@ -35,7 +33,6 @@ services:
   # daq services ###############################################################
   p46-rabbitmq:
   p46-blueapi:
-    targetRevision: 1.12.4
   p46-nexus:
     targetRevision: 4.1.3-a2
   p46-tiled:
