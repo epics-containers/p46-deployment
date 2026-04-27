@@ -37,7 +37,7 @@ services:
   p46-nexus:
     targetRevision: 4.1.3-a2
   p46-tiled:
-    targetRevision: add-tiled-reable-storage
+    targetRevision: dw/tiled-streaming
   p46-numtracker: 
     targetRevision: test-numtracker
   p46-epics-gateways:
