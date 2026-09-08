@@ -41,7 +41,7 @@ services:
   p46-numtracker: 
     targetRevision: test-numtracker
   p46-epics-gateways:
-  p46-opa:
+  # p46-opa:
 
   # IOCs #######################################################################
   bl46p-ea-panda-01:
