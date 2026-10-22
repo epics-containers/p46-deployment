@@ -14,7 +14,7 @@ destination:
   namespace: p46-beamline
 source:
   repoURL: https://github.com/epics-containers/p46-services
-  targetRevision: claude/pod-affinity-tolerations-5xdch7
+  targetRevision: add_host_network
 
 services:
   # Each item is of the form:
